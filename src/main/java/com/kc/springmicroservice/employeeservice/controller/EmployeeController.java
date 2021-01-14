@@ -65,7 +65,7 @@ public class EmployeeController {
 
 	}
 	
-	@Operation(description = "Add new employee details")
+	@Operation(description = "Add  Employee details")
 	@PostMapping
 	public ResponseEntity<HttpHeaders> addEmployee(@Validated @RequestBody EmployeeDTO  employeeDTO) {
 		
