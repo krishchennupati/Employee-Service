@@ -76,7 +76,7 @@ public class EmployeeController {
 	}
 	
 
-	@Operation(description = "Updates employee details using employeeID")
+	@Operation(description = "Updates Employee details using employeeID")
 	@PutMapping("/{employeeID}")
 	public ResponseEntity<HttpHeaders> updateEmployee(@PathVariable("employeeID") Long employeeID,@Validated @RequestBody EmployeeDTO  employeeDTO) {
 		
