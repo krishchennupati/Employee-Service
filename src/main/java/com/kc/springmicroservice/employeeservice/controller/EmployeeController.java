@@ -49,7 +49,7 @@ public class EmployeeController {
 
 	}
 	
-	@Operation(description = "Retrieve  employee details using employeeID")
+	@Operation(description = "Retrieve  Employee details using employeeID")
 	@GetMapping("/{employeeID}")
 	public ResponseEntity<EmployeeDTO> getEmployee(@PathVariable("employeeID") Long employeeID) {
 
